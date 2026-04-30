@@ -1,6 +1,7 @@
-package com.academia.facens.dto;
+package com.academia.facens.dto.request;
 
 public class AlunoRequest {
+
     private String nome;
     private String email;
     private Long planoId;
@@ -27,5 +28,5 @@ public class AlunoRequest {
 
     public void setPlanoId(Long planoId) {
         this.planoId = planoId;
-    }    
+    }
 }

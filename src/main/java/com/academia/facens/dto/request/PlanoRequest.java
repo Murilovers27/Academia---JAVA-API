@@ -1,6 +1,7 @@
-package com.academia.facens.dto;
+package com.academia.facens.dto.request;
 
 public class PlanoRequest {
+
     private String nome;
     private Double valor;
 
@@ -18,5 +19,5 @@ public class PlanoRequest {
 
     public void setValor(Double valor) {
         this.valor = valor;
-    }    
+    }
 }
