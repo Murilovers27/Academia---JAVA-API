@@ -165,15 +165,16 @@ Os testes foram implementados utilizando:
 - JUnit 5
 - Spring Boot Test
 - Mockito
+``
+![Evidencia](/src/images/TestesAutomatizados.png)
 
 ### ✅ Testes implementados
 
 - Teste de carregamento do contexto da aplicação.
 - Teste de cadastro de plano com sucesso.
-- Teste de validação de e-mail duplicado.
-- Teste de validação de plano inexistente.
-- Teste de disparo de exceções na camada Service.
+Service.
 
+![Evidencia](/src/images/ItensDoBanco.png)
 ---
 
 ## ▶️ Execução do Projeto
