@@ -25,7 +25,7 @@ public class AlunoResponse {
     public String getEmail() {
         return email;
     }
-
+    
     public String getNomePlano() {
         return nomePlano;
     }

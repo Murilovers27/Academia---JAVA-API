@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;
 
 import com.academia.facens.dto.PlanoResponse;
+import com.academia.facens.dto.request.PlanoRequest;
 import com.academia.facens.entity.Plano;
 import com.academia.facens.exception.RecursoNaoEncontradoException;
 import com.academia.facens.repository.PlanoRepository;
@@ -18,7 +19,7 @@ public class PlanoService {
         this.planoRepository = planoRepository;
     }
 
-    public PlanoResponse cadastrar(PlanoResponse request) {
+    public PlanoResponse cadastrar(PlanoRequest request) {
 
         if (request.getNome() == null || request.getNome().isBlank()) {
             throw new IllegalArgumentException("Nome do plano é obrigatório");

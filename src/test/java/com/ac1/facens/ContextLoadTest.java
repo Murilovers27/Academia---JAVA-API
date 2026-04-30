@@ -6,10 +6,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.academia.facens.FacensApplication;
 
 @SpringBootTest(classes = FacensApplication.class)
-class FacensApplicationTests {
+class ContextLoadTest {
 
-	@Test
-	void contextLoads() {
-	}
-
+    @Test
+    void contextLoads() {
+        
+    }
 }
