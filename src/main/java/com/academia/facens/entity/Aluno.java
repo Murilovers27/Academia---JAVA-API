@@ -1,5 +1,5 @@
 
-package com.academia.entity;
+package com.academia.facens.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.academia.entity;
+package com.academia.facens.entity;
 
 import java.util.List;
 
